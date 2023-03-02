@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    }
+#contenedor {
+   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    
+     
+  }
+
+  #principal {
+    margin-left:500px;
+    margin-right:20px;
+    margin-top:10px;
+  }
+
+  #lateral {
+    position: absolute;
+    width: 250px;
+    top:0px;
+    left: 0px;
+    padding: 50px;
+    margin-top: 10px;
+  }
+
+  ul {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    border: 1px;
+    width: 800px;
+    padding: 0px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 30px 15px 25px 20px;
+    font-weight: bold;
+    color: black;
+
+}
+
+h2 {
+    font-family: 'Tilt Warp', cursive;
+    font-size: large;
+    padding: 0px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+h3 {
+    font-family: 'Tilt Warp', cursive;
+    font-size: small;
+    padding: 0px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+hr {
+    position:relative;
+    top: 10px;
+    border: none;
+    height: 12px;
+    background: blue;
+    margin-bottom: 90px;
+}
+
+.redonda {
+    width:200px;
+    height:200px;
+    border-radius:150px;
+    margin: auto;
+    
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: medium;
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 2;
+}
+
+li {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: medium;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
