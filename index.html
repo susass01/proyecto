@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF 8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale="1.0">
+        <title>CV</title>
+        <script src="https://kit.fontawesome.com/dbcf75d26f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+        <link href = "http://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <script>
+           const nombre = document.getElementById(".nombre");
+           const btn = document.getElementById ("button");
+
+           btn.addEventListener("click", cambiacolor);
+           
+           function cambiacolor(){
+                nombre.style.color = "blue";
+           };
+
+        </script>
+        
+
+        <div id="contenedor">
+            <div id="lateral">
+                <img src="https://randomuser.me/api/portraits/men/74.jpg" class="redonda" >
+                <h2>Ingeniero en Informática</h2>
+              <ul>
+                    <li><i class="fa-sharp fa-solid fa-mobile-retro"></i>   (985) 797-0323</li>
+                    <li><i class="fa-sharp fa-solid fa-envelope"></i>   gary.butler@example.com </li>
+                    <li><i class="fa-sharp fa-solid fa-calendar-days"></i>  7/2/1994 </li>
+                    <li><i class="fa-sharp fa-solid fa-location-dot"></i>  1874 Thornridge Cir </li>
+                </ul>
+                <h2>IDIOMAS</h2>
+                <ul>
+                    <li>Español (nativo)</li>
+                    <li>Inglés Avanzado</li>
+                </ul>
+
+                <h2>HABILIDADES</h2>
+                <ul>
+                    <li>Buena comunicación</li>
+                    <li>Liderazgo</li>
+                    <li>Trabajar Bajo presión</li>
+                    <li>Capacidad para trabajar en equipo</li>
+                </ul>
+                <h2>SOTWARE</h2>
+                <ul>
+                    <li>PHP</li>
+                    <li>MySQL</li>
+                    <li>HTML</li>
+                    <li>JAVASCRIPT</li>
+                </ul>
+            </div>
+            <div id="principal">
+              <p><h1 class="nombre">Arron Hunt</h1>
+                    <button id="btn">Cambia Color del Nombre</button>
+                <p><hr width="700"></p>
+                    <h2>Sobre Mí</h2>
+                        <p id="contenido">Responsable, dedicado,
+                        proactivo, con iniciativa y
+                        puntualidad con ganas de seguir
+                        aprendiendo. Buena
+                        predisposición para el trabajo en
+                        equipo y con cualquier tipo de
+                        público. Dinamismo, excelentes
+                        relaciones interpersonales, buena
+                        dicción, buen desempeño en las
+                        tareas de atención al público.
+                        </p>
+                        <button onclick="mostrarMas()">Mostrar Más</button>
+
+                        <h2>Experencia</h2>
+                        <h3>Profesional de servicios y tecnología de la información</h3>
+                        <ul>
+                            <li>Help desk de plataforma.</li>
+                            <li>Apoyo a instalaciones.</li>
+                            <li>Atención a requerimientos internos (descarga de datos, listados).</li>
+                            <li>Mantenimiento de la plataforma.</li>
+                            <li>Mantenimiento / creación de servidores en AWS.</li>
+                        </ul>
+                        <h3>Universidad de los Andes. Analista Programador de Sistemas</h3>
+                        <ul>
+                            <li>Análisis, desarrollo, adaptación, implementación y soporte de los
+                                sistemas que soportan los servicios de redes de la Universidad de
+                                los Andes</li>
+                            <li>Desarrollo de proyectos en PHP, MySQL y Drupal.</li>
+                            <li>Asistencia informática total a trabajadores de la Universidad.</li>
+                        </ul>
+
+                        <h2>Formación</h2>
+                        <h3>Universidad Politécnica Territorial de Mérida</h3>
+                        <p>2010 - 2013</p>
+                        <p>Ingeniero en Informática.</p>
+                        <h3>Universidad Politécnica Territorial de Mérida</h3>
+                        <p>2005 - 2008</p>
+                        <p>TSU en Informática</p>            
+                
+              </div>
+            </div>
+          </div>
+      
+    </body>
+</html>
